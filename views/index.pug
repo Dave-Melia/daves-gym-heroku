@@ -1,0 +1,77 @@
+extends layout
+
+block content
+  header
+    nav
+      .row
+        img.logo(src='/images/logo2.png')
+        ul.main-nav
+          li
+            a(href='#') Home
+          li
+            a(href='#') Classes
+          li
+            a(href='#') Timetables
+          li
+            a(href='#') Prices
+    .main-title
+      h1
+        | Dave's Gym
+        br
+        span.green-text-highlight More
+        |  than just fitness
+      a.btn.btn-full(href='#') Sign Up
+      a.btn.btn-ghost(href='#') Show Me More
+  section.section-features
+    .row
+      h2 More than just fitness
+      p.feature-text
+        | We train both beginners and world level athletes, and we put as much into one as the other!
+    .row
+      .col.span-1-of-4.box
+        i.ion-ios-body.icon-large
+        h3 Strength Training
+        p
+          | A large area of free weights. Free weights can change your body shape and help gain all round fitness and physique.
+      .col.span-1-of-4.box
+        i.ion-waterdrop.icon-large
+        h3 Full Size Pools
+        p
+          | Three Luxurious pools. Including a 25m laned pool, a warmer family pool and a relaxing hydro pool.
+      .col.span-1-of-4.box
+        i.ion-android-bicycle.icon-large
+        h3 Cardio Equipment
+        p
+          | A wide variety of cardiovascular machines to get you moving and your heart pumping. Includes treadmills, cross-trainers, stepping machines, rowers, upright cycles, recumbent cycles, the list goes on!
+      .col.span-1-of-4.box
+        i.ion-android-phone-portrait.icon-large
+        h3 App & Members Areas
+        p
+          | Our exclusive members app or the Members Area on the website puts your club and fitness journey in the palm of your hands.
+  section.section-gym
+    ul.gym-showcase
+      li
+        figure.gym-photo
+          img(src='/images/1.jpeg')
+      li
+        figure.gym-photo
+          img(src='/images/2.jpeg')
+      li
+        figure.gym-photo
+          img(src='/images/3.jpeg')
+      li
+        figure.gym-photo
+          img(src='/images/4.jpeg')
+    ul.gym-showcase
+      li
+        figure.gym-photo
+          img(src='/images/5.jpeg')
+      li
+        figure.gym-photo
+          img(src='/images/6.jpeg')
+      li
+        figure.gym-photo
+          img(src='/images/7.jpeg')
+      li
+        figure.gym-photo
+          img(src='/images/8.jpeg')
